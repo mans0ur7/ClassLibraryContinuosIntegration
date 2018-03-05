@@ -21,5 +21,16 @@ namespace ClassLibraryContinuosIntegration.Tests
             //assert
             Assert.AreEqual(name, "Jonas");
         }
+
+        [TestMethod()]
+        public void GetAddresseTest()
+        {
+            //arrange 
+            Person person1 = new Person();
+            //act
+            string Address = person1.GetAddress();
+            //assert
+            Assert.AreEqual(Address, "Jernbanegade 3");
+        }
     }
 }
