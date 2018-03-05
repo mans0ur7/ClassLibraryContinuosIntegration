@@ -13,7 +13,7 @@ namespace ClassLibraryContinuosIntegration
             return "Jonas";
         }
 
-        string GetAddress()
+        public string GetAddress()
         {
             return "Elisagaardsvej 5";
         }

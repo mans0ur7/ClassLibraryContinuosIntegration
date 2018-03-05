@@ -21,6 +21,19 @@ namespace ClassLibraryContinuosIntegration.Tests
             //assert
             Assert.AreEqual(name, "Jonas");
         }
+        /// <summary>
+        /// Test som fejler, skulle se hvilken fejl vores build gav
+        /// </summary>
+        //[TestMethod()]
+        //public void GetAddresseFejlTest()
+        //{
+        //    //arrange 
+        //    Person person1 = new Person();
+        //    //act
+        //    string Address = person1.GetAddress();
+        //    //assert
+        //    Assert.AreEqual(Address, "Jernbanegade 3");
+        //}
 
         [TestMethod()]
         public void GetAddresseTest()
@@ -30,7 +43,7 @@ namespace ClassLibraryContinuosIntegration.Tests
             //act
             string Address = person1.GetAddress();
             //assert
-            Assert.AreEqual(Address, "Jernbanegade 3");
+            Assert.AreEqual(Address, "Elisagaardsvej 5");
         }
     }
 }
