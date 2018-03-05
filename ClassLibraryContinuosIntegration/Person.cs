@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryContinuosIntegration
 {
-    public class Person
+    class Person
     {
         public string GetName()
         {
