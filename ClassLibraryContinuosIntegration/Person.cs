@@ -12,5 +12,10 @@ namespace ClassLibraryContinuosIntegration
         {
             return "Jonas";
         }
+
+        string GetAddress()
+        {
+            return "Elisagaardsvej 5";
+        }
     }
 }
